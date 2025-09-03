@@ -587,6 +587,7 @@ class MCPServerManager:
                 name=prefixed_name,
                 description=tool.description,
                 inputSchema=tool.inputSchema,
+                annotations=tool.annotations,
             )
             prefixed_tools.append(prefixed_tool)
 
